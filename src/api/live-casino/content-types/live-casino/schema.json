@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "live_casinos",
+  "info": {
+    "singularName": "live-casino",
+    "pluralName": "live-casinos",
+    "displayName": "Live casino"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

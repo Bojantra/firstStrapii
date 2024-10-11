@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sportsbooks",
+  "info": {
+    "singularName": "sportsbook",
+    "pluralName": "sportsbooks",
+    "displayName": "sportsbook"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "teamHome": {
+      "type": "string"
+    },
+    "teamAway": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string"
+    }
+  }
+}
